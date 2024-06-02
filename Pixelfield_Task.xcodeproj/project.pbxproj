@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96251CAB2C0CF85600973A37 /* Pixelfield_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96251CAA2C0CF85600973A37 /* Pixelfield_TaskApp.swift */; };
+		96251CAD2C0CF85600973A37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96251CAC2C0CF85600973A37 /* ContentView.swift */; };
+		96251CAF2C0CF85800973A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96251CAE2C0CF85800973A37 /* Assets.xcassets */; };
+		96251CB22C0CF85800973A37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96251CB12C0CF85800973A37 /* Preview Assets.xcassets */; };
+		96251CBC2C0CF85800973A37 /* Pixelfield_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96251CBB2C0CF85800973A37 /* Pixelfield_TaskTests.swift */; };
+		96251CC62C0CF85800973A37 /* Pixelfield_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96251CC52C0CF85800973A37 /* Pixelfield_TaskUITests.swift */; };
+		96251CC82C0CF85800973A37 /* Pixelfield_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96251CC72C0CF85800973A37 /* Pixelfield_TaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96251CB82C0CF85800973A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96251C9F2C0CF85600973A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96251CA62C0CF85600973A37;
+			remoteInfo = Pixelfield_Task;
+		};
+		96251CC22C0CF85800973A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96251C9F2C0CF85600973A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96251CA62C0CF85600973A37;
+			remoteInfo = Pixelfield_Task;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96251CA72C0CF85600973A37 /* Pixelfield_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixelfield_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96251CAA2C0CF85600973A37 /* Pixelfield_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixelfield_TaskApp.swift; sourceTree = "<group>"; };
+		96251CAC2C0CF85600973A37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96251CAE2C0CF85800973A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96251CB12C0CF85800973A37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96251CB72C0CF85800973A37 /* Pixelfield_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pixelfield_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96251CBB2C0CF85800973A37 /* Pixelfield_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixelfield_TaskTests.swift; sourceTree = "<group>"; };
+		96251CC12C0CF85800973A37 /* Pixelfield_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pixelfield_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96251CC52C0CF85800973A37 /* Pixelfield_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixelfield_TaskUITests.swift; sourceTree = "<group>"; };
+		96251CC72C0CF85800973A37 /* Pixelfield_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixelfield_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96251CA42C0CF85600973A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96251CB42C0CF85800973A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96251CBE2C0CF85800973A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96251C9E2C0CF85600973A37 = {
+			isa = PBXGroup;
+			children = (
+				96251CA92C0CF85600973A37 /* Pixelfield_Task */,
+				96251CBA2C0CF85800973A37 /* Pixelfield_TaskTests */,
+				96251CC42C0CF85800973A37 /* Pixelfield_TaskUITests */,
+				96251CA82C0CF85600973A37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96251CA82C0CF85600973A37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96251CA72C0CF85600973A37 /* Pixelfield_Task.app */,
+				96251CB72C0CF85800973A37 /* Pixelfield_TaskTests.xctest */,
+				96251CC12C0CF85800973A37 /* Pixelfield_TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96251CA92C0CF85600973A37 /* Pixelfield_Task */ = {
+			isa = PBXGroup;
+			children = (
+				96251CAA2C0CF85600973A37 /* Pixelfield_TaskApp.swift */,
+				96251CAC2C0CF85600973A37 /* ContentView.swift */,
+				96251CAE2C0CF85800973A37 /* Assets.xcassets */,
+				96251CB02C0CF85800973A37 /* Preview Content */,
+			);
+			path = Pixelfield_Task;
+			sourceTree = "<group>";
+		};
+		96251CB02C0CF85800973A37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96251CB12C0CF85800973A37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96251CBA2C0CF85800973A37 /* Pixelfield_TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				96251CBB2C0CF85800973A37 /* Pixelfield_TaskTests.swift */,
+			);
+			path = Pixelfield_TaskTests;
+			sourceTree = "<group>";
+		};
+		96251CC42C0CF85800973A37 /* Pixelfield_TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96251CC52C0CF85800973A37 /* Pixelfield_TaskUITests.swift */,
+				96251CC72C0CF85800973A37 /* Pixelfield_TaskUITestsLaunchTests.swift */,
+			);
+			path = Pixelfield_TaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96251CA62C0CF85600973A37 /* Pixelfield_Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96251CCB2C0CF85800973A37 /* Build configuration list for PBXNativeTarget "Pixelfield_Task" */;
+			buildPhases = (
+				96251CA32C0CF85600973A37 /* Sources */,
+				96251CA42C0CF85600973A37 /* Frameworks */,
+				96251CA52C0CF85600973A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pixelfield_Task;
+			productName = Pixelfield_Task;
+			productReference = 96251CA72C0CF85600973A37 /* Pixelfield_Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96251CB62C0CF85800973A37 /* Pixelfield_TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96251CCE2C0CF85800973A37 /* Build configuration list for PBXNativeTarget "Pixelfield_TaskTests" */;
+			buildPhases = (
+				96251CB32C0CF85800973A37 /* Sources */,
+				96251CB42C0CF85800973A37 /* Frameworks */,
+				96251CB52C0CF85800973A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96251CB92C0CF85800973A37 /* PBXTargetDependency */,
+			);
+			name = Pixelfield_TaskTests;
+			productName = Pixelfield_TaskTests;
+			productReference = 96251CB72C0CF85800973A37 /* Pixelfield_TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96251CC02C0CF85800973A37 /* Pixelfield_TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96251CD12C0CF85800973A37 /* Build configuration list for PBXNativeTarget "Pixelfield_TaskUITests" */;
+			buildPhases = (
+				96251CBD2C0CF85800973A37 /* Sources */,
+				96251CBE2C0CF85800973A37 /* Frameworks */,
+				96251CBF2C0CF85800973A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96251CC32C0CF85800973A37 /* PBXTargetDependency */,
+			);
+			name = Pixelfield_TaskUITests;
+			productName = Pixelfield_TaskUITests;
+			productReference = 96251CC12C0CF85800973A37 /* Pixelfield_TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96251C9F2C0CF85600973A37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					96251CA62C0CF85600973A37 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					96251CB62C0CF85800973A37 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 96251CA62C0CF85600973A37;
+					};
+					96251CC02C0CF85800973A37 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 96251CA62C0CF85600973A37;
+					};
+				};
+			};
+			buildConfigurationList = 96251CA22C0CF85600973A37 /* Build configuration list for PBXProject "Pixelfield_Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96251C9E2C0CF85600973A37;
+			productRefGroup = 96251CA82C0CF85600973A37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96251CA62C0CF85600973A37 /* Pixelfield_Task */,
+				96251CB62C0CF85800973A37 /* Pixelfield_TaskTests */,
+				96251CC02C0CF85800973A37 /* Pixelfield_TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96251CA52C0CF85600973A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96251CB22C0CF85800973A37 /* Preview Assets.xcassets in Resources */,
+				96251CAF2C0CF85800973A37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96251CB52C0CF85800973A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96251CBF2C0CF85800973A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96251CA32C0CF85600973A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96251CAD2C0CF85600973A37 /* ContentView.swift in Sources */,
+				96251CAB2C0CF85600973A37 /* Pixelfield_TaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96251CB32C0CF85800973A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96251CBC2C0CF85800973A37 /* Pixelfield_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96251CBD2C0CF85800973A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96251CC62C0CF85800973A37 /* Pixelfield_TaskUITests.swift in Sources */,
+				96251CC82C0CF85800973A37 /* Pixelfield_TaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96251CB92C0CF85800973A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96251CA62C0CF85600973A37 /* Pixelfield_Task */;
+			targetProxy = 96251CB82C0CF85800973A37 /* PBXContainerItemProxy */;
+		};
+		96251CC32C0CF85800973A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96251CA62C0CF85600973A37 /* Pixelfield_Task */;
+			targetProxy = 96251CC22C0CF85800973A37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96251CC92C0CF85800973A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96251CCA2C0CF85800973A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96251CCC2C0CF85800973A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pixelfield_Task/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pixelfield-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96251CCD2C0CF85800973A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pixelfield_Task/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pixelfield-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96251CCF2C0CF85800973A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pixelfield-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixelfield_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pixelfield_Task";
+			};
+			name = Debug;
+		};
+		96251CD02C0CF85800973A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pixelfield-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixelfield_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pixelfield_Task";
+			};
+			name = Release;
+		};
+		96251CD22C0CF85800973A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pixelfield-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pixelfield_Task;
+			};
+			name = Debug;
+		};
+		96251CD32C0CF85800973A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pixelfield-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pixelfield_Task;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96251CA22C0CF85600973A37 /* Build configuration list for PBXProject "Pixelfield_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96251CC92C0CF85800973A37 /* Debug */,
+				96251CCA2C0CF85800973A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96251CCB2C0CF85800973A37 /* Build configuration list for PBXNativeTarget "Pixelfield_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96251CCC2C0CF85800973A37 /* Debug */,
+				96251CCD2C0CF85800973A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96251CCE2C0CF85800973A37 /* Build configuration list for PBXNativeTarget "Pixelfield_TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96251CCF2C0CF85800973A37 /* Debug */,
+				96251CD02C0CF85800973A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96251CD12C0CF85800973A37 /* Build configuration list for PBXNativeTarget "Pixelfield_TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96251CD22C0CF85800973A37 /* Debug */,
+				96251CD32C0CF85800973A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96251C9F2C0CF85600973A37 /* Project object */;
+}
