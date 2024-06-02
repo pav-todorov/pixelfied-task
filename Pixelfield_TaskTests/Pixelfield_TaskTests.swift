@@ -2,7 +2,6 @@
 //  Pixelfield_TaskTests.swift
 //  Pixelfield_TaskTests
 //
-//  Created by Work on 2.06.24.
 //
 
 import XCTest

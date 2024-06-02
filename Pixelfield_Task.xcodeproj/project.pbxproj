@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		96251CAB2C0CF85600973A37 /* Pixelfield_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96251CAA2C0CF85600973A37 /* Pixelfield_TaskApp.swift */; };
-		96251CAD2C0CF85600973A37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96251CAC2C0CF85600973A37 /* ContentView.swift */; };
+		96251CAD2C0CF85600973A37 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96251CAC2C0CF85600973A37 /* WelcomeView.swift */; };
 		96251CAF2C0CF85800973A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96251CAE2C0CF85800973A37 /* Assets.xcassets */; };
 		96251CB22C0CF85800973A37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96251CB12C0CF85800973A37 /* Preview Assets.xcassets */; };
 		96251CBC2C0CF85800973A37 /* Pixelfield_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96251CBB2C0CF85800973A37 /* Pixelfield_TaskTests.swift */; };
 		96251CC62C0CF85800973A37 /* Pixelfield_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96251CC52C0CF85800973A37 /* Pixelfield_TaskUITests.swift */; };
 		96251CC82C0CF85800973A37 /* Pixelfield_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96251CC72C0CF85800973A37 /* Pixelfield_TaskUITestsLaunchTests.swift */; };
 		96251CF62C0CFC6100973A37 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96251CF52C0CFC6100973A37 /* Launch Screen.storyboard */; };
+		96B102FF2C0D0B6B00B310EE /* EBGaramond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96B102FE2C0D0B6B00B310EE /* EBGaramond.ttf */; };
+		96B103002C0D0B6B00B310EE /* EBGaramond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96B102FE2C0D0B6B00B310EE /* EBGaramond.ttf */; };
+		96B103012C0D0B6B00B310EE /* EBGaramond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96B102FE2C0D0B6B00B310EE /* EBGaramond.ttf */; };
+		96B1030D2C0D0DAA00B310EE /* Pixelfield-Task-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96B1030C2C0D0DAA00B310EE /* Pixelfield-Task-Info.plist */; };
+		96B1030E2C0D0DAA00B310EE /* Pixelfield-Task-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96B1030C2C0D0DAA00B310EE /* Pixelfield-Task-Info.plist */; };
+		96B1030F2C0D0DAA00B310EE /* Pixelfield-Task-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96B1030C2C0D0DAA00B310EE /* Pixelfield-Task-Info.plist */; };
+		96DFEDBF2C0D01A100946ABF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFEDBE2C0D01A100946ABF /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,7 @@
 /* Begin PBXFileReference section */
 		96251CA72C0CF85600973A37 /* Pixelfield_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixelfield_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96251CAA2C0CF85600973A37 /* Pixelfield_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixelfield_TaskApp.swift; sourceTree = "<group>"; };
-		96251CAC2C0CF85600973A37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96251CAC2C0CF85600973A37 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		96251CAE2C0CF85800973A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96251CB12C0CF85800973A37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96251CB72C0CF85800973A37 /* Pixelfield_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pixelfield_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +52,10 @@
 		96251CC12C0CF85800973A37 /* Pixelfield_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pixelfield_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96251CC52C0CF85800973A37 /* Pixelfield_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixelfield_TaskUITests.swift; sourceTree = "<group>"; };
 		96251CC72C0CF85800973A37 /* Pixelfield_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixelfield_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		96251CF42C0CFA3900973A37 /* Pixelfield-Task-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pixelfield-Task-Info.plist"; sourceTree = SOURCE_ROOT; };
 		96251CF52C0CFC6100973A37 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		96B102FE2C0D0B6B00B310EE /* EBGaramond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EBGaramond.ttf; path = Pixelfield_Task/Assets/EBGaramond.ttf; sourceTree = SOURCE_ROOT; };
+		96B1030C2C0D0DAA00B310EE /* Pixelfield-Task-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pixelfield-Task-Info.plist"; sourceTree = "<group>"; };
+		96DFEDBE2C0D01A100946ABF /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +106,10 @@
 		96251CA92C0CF85600973A37 /* Pixelfield_Task */ = {
 			isa = PBXGroup;
 			children = (
-				96251CF42C0CFA3900973A37 /* Pixelfield-Task-Info.plist */,
 				96251CAA2C0CF85600973A37 /* Pixelfield_TaskApp.swift */,
-				96251CAC2C0CF85600973A37 /* ContentView.swift */,
-				96251CF52C0CFC6100973A37 /* Launch Screen.storyboard */,
-				96251CAE2C0CF85800973A37 /* Assets.xcassets */,
+				96251CAC2C0CF85600973A37 /* WelcomeView.swift */,
+				967AAA6B2C0D045600FB21EF /* Extensions */,
+				96DFEDC22C0D037500946ABF /* Assets */,
 				96251CB02C0CF85800973A37 /* Preview Content */,
 			);
 			path = Pixelfield_Task;
@@ -130,6 +138,25 @@
 				96251CC72C0CF85800973A37 /* Pixelfield_TaskUITestsLaunchTests.swift */,
 			);
 			path = Pixelfield_TaskUITests;
+			sourceTree = "<group>";
+		};
+		967AAA6B2C0D045600FB21EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				96DFEDBE2C0D01A100946ABF /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		96DFEDC22C0D037500946ABF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				96B1030C2C0D0DAA00B310EE /* Pixelfield-Task-Info.plist */,
+				96B102FE2C0D0B6B00B310EE /* EBGaramond.ttf */,
+				96251CF52C0CFC6100973A37 /* Launch Screen.storyboard */,
+				96251CAE2C0CF85800973A37 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				96251CF62C0CFC6100973A37 /* Launch Screen.storyboard in Resources */,
+				96B1030D2C0D0DAA00B310EE /* Pixelfield-Task-Info.plist in Resources */,
 				96251CB22C0CF85800973A37 /* Preview Assets.xcassets in Resources */,
+				96B102FF2C0D0B6B00B310EE /* EBGaramond.ttf in Resources */,
 				96251CAF2C0CF85800973A37 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +275,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B103002C0D0B6B00B310EE /* EBGaramond.ttf in Resources */,
+				96B1030E2C0D0DAA00B310EE /* Pixelfield-Task-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B103012C0D0B6B00B310EE /* EBGaramond.ttf in Resources */,
+				96B1030F2C0D0DAA00B310EE /* Pixelfield-Task-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96251CAD2C0CF85600973A37 /* ContentView.swift in Sources */,
+				96251CAD2C0CF85600973A37 /* WelcomeView.swift in Sources */,
 				96251CAB2C0CF85600973A37 /* Pixelfield_TaskApp.swift in Sources */,
+				96DFEDBF2C0D01A100946ABF /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +464,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pixelfield_Task/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pixelfield-Task-Info.plist";
+				INFOPLIST_FILE = "Pixelfield_Task/Assets/Pixelfield-Task-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,9 +498,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pixelfield_Task/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pixelfield-Task-Info.plist";
+				INFOPLIST_FILE = "Pixelfield_Task/Assets/Pixelfield-Task-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
